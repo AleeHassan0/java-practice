@@ -7,21 +7,21 @@ import java.util.Scanner;
 //break
 public class conditionals {
     public static void main(String[] args) {
-      Scanner sc= new Scanner(System.in); 
-      System.out.println("enter your age"); 
-      int age=sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your age");
+        int age = sc.nextInt();
 
-      if (age>18){
-        System.out.println("adult");
+        if (age > 18) {
+            System.out.println("adult");
 
-      }else
-        System.out.println("not adult");
+        } else
+            System.out.println("not adult");
 
+        if (age % 2 == 0) {
+            System.out.println("even number");
 
+        } else
+            System.out.println("odd number");
 
-
-
-
-        
     }
 }
