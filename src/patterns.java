@@ -1,10 +1,10 @@
 public class patterns {
 
-    //rows outer loops
-    //colomns inner loops
+    // outer loop rows
+    // inner loop coloumns
    public static void main(String[] args) {
 
-//for loop ex.1
+////for loop ex.1
     // for(int i=0;i<4;i++){
     //     for(int j=0;j<4;j++){
     //         System.out.print("*");
@@ -13,7 +13,7 @@ public class patterns {
     // }
 
 
-//hollow rectangle with the help of nested loop
+////hollow rectangle with the help of nested loop
 // int n=4;
 // int m=5;
 // for (int i=1;i<=n;i++){
@@ -28,14 +28,25 @@ public class patterns {
 // }
 
 
-//half pyramid
+////half pyramid
+// int n=4;
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=i;j++){
+//         System.out.print("*");
+//     }
+//     System.out.println();
+// }
+
 int n=4;
-for(int i=1;i<=n;i++){
+
+//inveted pyramid
+for(int i=n;i>=1;i--){
     for(int j=1;j<=i;j++){
         System.out.print("*");
     }
     System.out.println();
 }
+
 
 
 
