@@ -37,20 +37,31 @@ public class patterns {
 //     System.out.println();
 // }
 
-int n=4;
 
-//inveted pyramid
-for(int i=n;i>=1;i--){
-    for(int j=1;j<=i;j++){
-        System.out.print("*");
-    }
-    System.out.println();
+////inveted pyramid
+// int n=4;
+// for(int i=n;i>=1;i--){
+//     for(int j=1;j<=i;j++){
+//         System.out.print("*");
+//     }
+//     System.out.println();
+// }
+
+
+
+////inverted pyramid  rotated at 180 degree
+int n =4;
+//outer loop for column
+for(int i=1;i<=n;i++){
+//inner loop for space
+for(int j=1;j<=n-1;j++){
+System.out.print(" ");
 }
-
-
-
-
-
-
+//inner loop for star
+for(int j=1;j<=i;j++){
+    System.out.print("*");
+}
+System.out.println();
+}
    }
 }
