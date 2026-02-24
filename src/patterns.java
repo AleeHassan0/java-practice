@@ -47,8 +47,6 @@ public class patterns {
 //     System.out.println();
 // }
 
-
-
 ////inverted pyramid  rotated at 180 degree
 // int n =4;
 // //outer loop for column
@@ -89,21 +87,31 @@ public class patterns {
 // }
 
 
+// //Floyd's triangle
+// int n=5;
+// int number =1;
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=i;j++){
+// System.out.print(number+" ");
+// number++;
+//     }
+//     System.out.println();
+// }
 
-//Floyd's triangle
+
+//0-1 triangle
 int n=5;
-int number =1;
 for(int i=1;i<=n;i++){
     for(int j=1;j<=i;j++){
-System.out.print(number+" ");
-number++;
+        int sum=i+j;
+if(sum%2==0){
+System.out.print("1 ");
+}else{
+    System.out.print("0 ");
+}
     }
     System.out.println();
 }
-
-
-
-
 
 
 
