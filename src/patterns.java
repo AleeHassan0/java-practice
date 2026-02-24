@@ -50,18 +50,31 @@ public class patterns {
 
 
 ////inverted pyramid  rotated at 180 degree
-int n =4;
-//outer loop for column
+// int n =4;
+// //outer loop for column
+// for(int i=1;i<=n;i++){
+// //inner loop for space
+// for(int j=1;j<=n-1;j++){
+// System.out.print(" ");
+// }
+// //inner loop for star
+// for(int j=1;j<=i;j++){
+//     System.out.print("*");
+// }
+// System.out.println();
+// }
+
+int n=5;
 for(int i=1;i<=n;i++){
-//inner loop for space
-for(int j=1;j<=n-1;j++){
-System.out.print(" ");
+   //inner loop for number
+   for(int j=1;j<=i;j++){
+    System.out.print(j+" ");
+   }  
+  System.out.println(" ");
 }
-//inner loop for star
-for(int j=1;j<=i;j++){
-    System.out.print("*");
-}
-System.out.println();
-}
+
+
+
+
    }
 }
